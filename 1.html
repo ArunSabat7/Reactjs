@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./temp/babel.js"></script>
+    <script src="./temp/react.js"></script>
+    <script src="./temp/dom.js"></script>
+
+
+    <title>React</title>
+</head>
+
+<body>
+    <div id="root">hello modi</div>
+
+    <script type="text/babel">
+        class App extends React.Component {
+            render() {
+                return (
+                    <div >
+                       <h2>hello India</h2> </div>
+                )
+            }
+        }
+        ReactDOM.render(
+            <App/>,document.getElementById("root")
+        )
+    </script>
+</body>
+
+</html>
